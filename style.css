@@ -7,17 +7,18 @@ body{
     align-content: center;
     padding-top: 30px;
 }
-.box1{
+.box1 {
     align-content: center;
     justify-content: center;
-    border: solid 1px black;
     text-align: center;
+}
+.box1 form{
+    border: solid 1px black;
     padding: 27px 30px;
-    width: 30%;
-    height: 60vh;
+    width: 100%;
 }
 .box1 input{
-    width: 100%;
+    width: 300px;
     border-radius: 3px;
     border: solid 1px black;
     height: 6vh;
@@ -28,23 +29,24 @@ body{
 .box1 .fb{
     color: darkblue;
 }
-.page2{
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    padding-top: 20px;
-}
-.page2 .box2{
+.box2{
     align-content: center;
     justify-content: center;
-    border: solid 1px black;
     text-align: center;
-    padding: 15px 35px;
-    height: 8vh;
-    width: 30%;
+    padding-top: 20px;
+    display: flex;
+}
+.box2 form{
+    border: solid 1px black;
+    padding: 15px 40px;
+    width: 370px;
 }
 .acquire{
+    display: flex;
+    align-content: center;
+    justify-content: center;
     text-align: center;
+    padding-top: 20px;
 }
 footer{
     text-align: center;
@@ -57,5 +59,21 @@ footer a{
 footer a:hover{
     text-decoration: underline;
 }
-footer p{
+.form_one{
+    border: solid 1px black;
+    text-align: center;
+    padding: 15px 45px;
+}
+.form_one input{
+    width: 100%;
+    padding: 5px;
+}
+.form_two{
+    border: solid 1px black;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 15px;
+}
+.space{
+    padding-top: 20px;
 }
